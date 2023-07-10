@@ -1,0 +1,39 @@
+/* header */
+
+
+.header {
+
+    background-color: #E554731A;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.heading {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.para {
+    color: rgba(red, green, blue, alpha);
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.bt-primary {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 10px;
+    border: 0;
+
+}
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
