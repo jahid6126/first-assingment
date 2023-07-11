@@ -1,3 +1,67 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common things */
+.bt-primary {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 10px;
+    border: 0;
+
+}
+
+
+.text {
+    color: rgba(39, 39, 39, 0.60);
+    margin-top: 30px;
+
+
+    font-size: 18px;
+
+    font-weight: 400;
+
+
+
+
+}
+
+.main-title {
+
+    color: #272727;
+    margin-top: 50px;
+
+
+    font-size: 40px;
+
+    font-weight: 800;
+
+}
+
+/* common things of 1st and 4th */
+
+.first-image-group {
+
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+
+
+}
+
+.boga {
+    width: 300px;
+    height: 400px;
+}
+
 /* header */
 
 
@@ -6,6 +70,7 @@
     background-color: #E554731A;
     display: flex;
     justify-content: space-between;
+    
 
 
 }
@@ -24,16 +89,95 @@
     line-height: 30px;
 }
 
-.bt-primary {
+
+
+
+
+/* main */
+/* 1st section */
+
+
+
+
+main {
+    text-align: center;
+
+}
+
+
+
+/* 2nd section */
+
+.second {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
     border-radius: 8px;
-    background: #E55473;
-    padding: 10px;
-    border: 0;
+    background: rgba(39, 39, 39, 0.05);
+    margin-top: 15px;
+}
+
+/* 3rd section */
+.third {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin: 15px 100px 50px;
+}
+
+/* 5th section */
+
+
+.fith {
+    background-image: url('../Flower\ Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
 
 }
 
 
-body {
-    font-family: 'Lato', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+
+#email {
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+
 }
+
+
+/* footer part */
+footer {
+    text-align: center;
+    background: #111010;
+    color: #FFF;
+}
+
+#footer-title {
+    
+    margin-bottom: 20px;
+
+    font-size: 48px;
+
+    font-weight: 800;
+
+}
+
+#footer-text {
+    
+
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
